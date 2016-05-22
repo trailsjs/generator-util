@@ -1,0 +1,9 @@
+./test/integration/**/*.test.js
+--reporter spec
+--recursive
+--timeout 300000
+--check-leaks
+--full-trace
+--slow 50
+--no-exit
+--globals i
