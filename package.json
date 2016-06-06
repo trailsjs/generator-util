@@ -14,7 +14,7 @@
     "detect-conflict": "^1.0.0",
     "falafel": "^1.2.0",
     "path-exists": "^3.0.0",
-    "yeoman-generator": "^0.22.5"
+    "yeoman-generator": "^0.22.6"
   },
   "devDependencies": {
     "babel": "^6.5.2",
