@@ -1,6 +1,6 @@
 {
   "name": "@trails/generator-util",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Jimmy Aumard <jimmy.aumard@gmail.com>",
   "main": "generators/index.js",
   "scripts": {
