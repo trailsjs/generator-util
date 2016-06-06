@@ -20,9 +20,8 @@ deploy:
   provider: npm
   email: hello@trailsjs.io
   api_key:
-    secure: TODO
-  skip_cleanup: true
+    secure: 2dHYHch7anrN6SkHG7uUiPd86fXmIuSY9/8/KgRcjkiwWVi/92EK+U1twMZiK1TQTw/U0HrN4LwnXaiKPGW/cWY/TfImpx1D5/A8NTOlG8nfSDqwYn/w6gkMWVyjCx5ei8Iplima7o59okr1GMuzeOrFHz6+IIj4MCq7XJ3mXL+qy5pOP/ucTWosXgvS4OC3wmloy9HDKmJbXu/hVk0i7ya7NfJwCrH1Q2kvul1Dqd0dx6vkig/vrkIzqR3DcPDV78XqCfuLWTx6oHUwa+gm6EmhEBBljuw3BzGotIT0KqufhudaAmD9Rfv/vCVlazHSroIAr7yoJ3zv1vy7+4OWJ/Y/sIGZoH0k0QxvhTWnAdpHRIvp0HNeFfdZvuLma5VIkjSUgyOidPjklpqb4UpXTh9ZkRpkqmd7HkuIjrAW1sbOvuVCxVH1tganvV9uag94XpKNeYx2Y3yP7YghnWnKLCikL6WrbhO2Ph2oFm5lsIu8jAFwvI9TYSPe+ZAAXwOXAxkw3z97kxGRJQP0sM1K/jsOdDowKCq7WfceaXfwxffDFmT32KXn55ye6tiiaugAP6jBCEhRcGFN2EYici4zyG/if1oKY4G6vZjowfclIuai+9CkW9/HGTKnAkFhQ4o5XJT+RNvJl2keNu058vrIbjWTr6oiqYl5OY3kzkfHmos=
   on:
     tags: true
     repo: trailsjs/generator-util
-    node: 5
+    node: 6
