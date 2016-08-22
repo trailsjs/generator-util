@@ -13,14 +13,14 @@ describe('trails:policy', () => {
 
     it('Should properly create policy files', () => {
       assert.file([
-        'api/policies/Test.js'
+        'api/policies/TestPolicy.js'
       ])
 
     })
 
     it('Should properly create test files', () => {
       assert.file([
-        'test/integration/policies/Test.test.js'
+        'test/integration/policies/TestPolicy.test.js'
       ])
 
     })
