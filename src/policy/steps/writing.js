@@ -9,14 +9,14 @@ const SOURCE_POLICY = 'Policy.js'
 const SOURCE_POLICY_TEST = 'Policy.test.js'
 
 const DESTINATION_INDEX = 'api/policies/index.js'
-const DESTINATION_POLICY = name => `api/policies/${name}.js`
-const DESTINATION_POLICY_TEST = name => `test/integration/policies/${name}.test.js`
+const DESTINATION_POLICY = name => `api/policies/${name}Policy.js`
+const DESTINATION_POLICY_TEST = name => `test/integration/policies/${name}Policy.test.js`
 
 export default function () {
   Util.patchConflicter()
 
   let name = (this['policy-name'].charAt(0).toUpperCase() + this['policy-name'].slice(1)).replace(/(\w+)Policy$/, '$1')
-  let fileName = `${name}`
+  let fileName = `${name}Policy`
   let indexPath = this.destinationPath(DESTINATION_INDEX)
 
   this.template(SOURCE_POLICY, DESTINATION_POLICY(name), {name, fileName, answers: this.answers})
